@@ -21,9 +21,9 @@ csv_example
 list_example =[]
 
  #Read the files using the bucle
-for i in csv_ss:
+for i in csv_example:
     ss = pd.read_csv(i)
-    list_ss.append(ss)
+    list_example.append(ss)
 
 #CSee the list read
 list_ss
